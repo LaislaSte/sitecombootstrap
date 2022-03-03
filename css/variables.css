@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+:root{
+    --primary-blue:#049DBF ;
+    --second-blue:#04C4D9 ;
+    --color-yellow:#F2D750;
+    --color-brown:#8C3503;
+    --color-dark-black:#0D0000;
+    --gray: #595959;
+
+    --color-first-blue:#224573;
+    --color-second-blue:#1D3240;
+    --color-third-blue:#466673;
+    --color-forty-blue:#95B8BF;
+    --color-first-brown:#A68C5B;
+
+    --title-1: normal bold 2rem 'Nunito', san-serif; 
+    --title-2: normal 2rem 'Nunito', san-serif ;
+    --title-3: normal 25px 'Nunito', san-serif; 
+    --nav-title: normal bold 1rem 'Nunito', san-serif;
+    --nb2: normal bold 1rem 'Nunito', san-serif;
+
+}
+
+
+
+.primary-title{
+    position: absolute;
+    top: 10rem;
+    z-index: 1;
+
+}
+
+.title-one{
+    font: var(--title-1);
+    color: var(--primary-blue);
+}
+.title-two{
+    font: var(--title-2);
+}
+.title-three{
+    font: var(--title-3);
+}
+
+.btn{
+    margin-top: .7rem;
+}
+
+.navbar-brand{
+    margin-left: 1.5rem;
+    font: var(--nav-title);
+}
+
+.nb2{
+    color: var(--color-first-brown);
+    font: var(--nb2);
+}
+
+/*===============
+    MENU AREA
+=================*/
+.menu-area{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+.container-fluid .row .col .menu-area .navbar ul{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+.container-fluid .row .col .menu-area .navbar ul li{
+    margin-left: 15%;
+
+}
+
+footer{
+    color:#fff;
+}
+
+/*===============
+    MEDIAS QUERIES
+=================*/
+
+@media (max-width: 570px){
+    .container-fluid .row .col .off{
+        display: none;
+    }
+    .one,
+    .two,
+    .three{
+        height: 3px;
+        width: 100%;
+        background-color: #049DBF;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    /*fullscren*/
+    .menu-area.on{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #04C4D9;
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-area.on .menu-toggle{
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+    .menu-area.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-area.on .menu-toggle .two{
+        transform: rotate(-45deg) translate(-2px, -1px);
+    }
+    .menu-area.on .menu-toggle .three{
+        opacity: 0;
+    }
+    .container-fluid .row .col .navbar.off ul{
+        text-align: center;
+        display: block;
+    }
+    .container-fluid .row .col .navbar ul a{
+        transition-duration: .5s;
+        font-size: 1rem;
+        line-height: 4rem;
+        display: block;
+    }
+    .menu-area{
+        display: flex;
+    }
+    /*
+    .menu-area{
+        background-color: #1D3240;
+    }
+    .menu-area .menu-toggle{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        transition-duration: .3s;
+    }
+    .menu-area .menu-toggle .one{
+        height: 3px;
+        background-color: #049DBF;
+        margin: 6px auto;
+    }
+    .menu-area .menu-toggle .two{
+        height: 3px;
+        margin: 6px auto;
+        background-color: #049DBF;
+    }
+    .menu-area .menu-toggle .three{
+        height: 3px;
+        background-color: #049DBF;
+    }
+
+    .menu-area .on{
+        height: 100vh;
+        width: 40px;
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+    .menu-area .on .one{ 
+        transform: rotateX(45ang) translate();
+    }
+    .menu-area .on .two{
+        transform: rotateX(-45ang) translate();
+    }
+    .menu-area .on .three{
+        opacity: 0;
+    }*/
+
+}

@@ -15,7 +15,7 @@
     --color-first-brown:#A68C5B;
 
     --title-1: normal bold 2rem 'Nunito', san-serif; 
-    --title-2: normal 2rem 'Nunito', san-serif ;
+    --title-2: normal 1.6rem 'Nunito', san-serif ;
     --title-3: normal 25px 'Nunito', san-serif; 
     --nav-title: normal bold 1rem 'Nunito', san-serif;
     --nb2: normal bold 1rem 'Nunito', san-serif;
@@ -37,6 +37,7 @@
 }
 .title-two{
     font: var(--title-2);
+    text-decoration: none;
 }
 .title-three{
     font: var(--title-3);
@@ -55,6 +56,20 @@
     color: var(--color-first-brown);
     font: var(--nb2);
 }
+
+
+/*===============
+    NAVBAR AREA
+=================*/
+
+.navbar a {
+    margin-left: 1rem;
+}
+
+/*===============
+    BANNER AREA
+=================*/
+
 
 /*===============
     MENU AREA

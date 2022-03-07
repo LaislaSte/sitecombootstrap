@@ -67,9 +67,12 @@
 }
 
 /*===============
-    BANNER AREA
+    HEADER AREA
 =================*/
-
+.row .col .btn-outline-success{
+    height: 3.5rem;
+    width: 7rem;
+}
 
 /*===============
     MENU AREA

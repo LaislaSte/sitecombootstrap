@@ -1,50 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 
 :root{
-    --primary-blue:#049DBF ;
-    --second-blue:#04C4D9 ;
-    --color-yellow:#F2D750;
-    --color-brown:#8C3503;
-    --color-dark-black:#0D0000;
-    --gray: #595959;
+    /*THEME*/
+    --BACKGROUND_DARK: #1D3240;
+    --BACKGROUND_DARK_DARKER: #212228;
+    --BARCKGROUND_LIGHT: #F5FFF8 ;
+    --BARCKGROUND_LIGHT_DARKER: #A8FFC0 ;
 
-    --color-first-blue:#224573;
-    --color-second-blue:#1D3240;
-    --color-third-blue:#466673;
-    --color-forty-blue:#95B8BF;
-    --color-first-brown:#A68C5B;
-
-    --title-1: normal bold 2rem 'Nunito', san-serif; 
-    --title-2: normal 1.6rem 'Nunito', san-serif ;
-    --title-3: normal 25px 'Nunito', san-serif; 
-    --nav-title: normal bold 1rem 'Nunito', san-serif;
-    --nb2: normal bold 1rem 'Nunito', san-serif;
+    /*fullfilled and borders*/
+    --PRIMARY_900: #025939;
+    --PRIMARY_800: #027333;
+    --PRIMARY_700: #03A63C;
+    --PRIMARY_600: #04D939;
+    
+    /*titles*/
+    --SECONDARY_900: #224573;
+    --SECONDARY_800: #049DBF;
+    --SECONDARY_700: #04C4D9;
+    
+    /*paragraph*/
+    --TEXT: #011140;
+    --TEXT_LIGHT: #DFE6EA;
+	
+    /*fonts*/
+    /*italic / small-caps / bold / 12px/18px / Arial, Helvetica, Verdana
+    Font-style / font-variant / font-weight / font-size/line-height / font-family*/
+    --LIGHT: normal 300 1rem 'Nunito', san-serif;
+    --LIGHT_ITALIC: italic 300 1rem 'Nunito', san-serif;
+    --REGULAR: normal 400 1rem 'Nunito', san-serif;
+    --REGULAR_WARNING: normal uppercase 400 1rem 'Nunito', san-serif;
+    --MEDIUM: normal 500 1.5rem 'Nunito', san-serif;
+    --BOLD: normal 700 2rem 'Nunito', san-serif;
+    
+    /*others*/
+    --ALERT: #D9042B;
+    --WARNING: #F2B705; 
+    --LINE_DARK:#0D0000;
+    --LINE_LIGHT: #595959;
 
 }
 
-
-
-.primary-title{
-    position: absolute;
-    top: 10rem;
-    z-index: 1;
-
-}
-
-.title-one{
-    font: var(--title-1);
-    color: var(--primary-blue);
-}
-.title-two{
-    font: var(--title-2);
-    text-decoration: none;
-}
-.title-three{
-    font: var(--title-3);
-}
-
-.btn{
-    margin-top: .7rem;
+.container-fluid{
+    background-color: var(--BACKGROUND_DARK_DARKER);
 }
 
 .navbar-brand{
@@ -95,6 +92,14 @@
 
 footer{
     color:#fff;
+}
+
+/*===============
+    EDICAO PERFIL
+=================*/
+.edtphoto {
+    position: absolute;
+    top: 80px;
 }
 
 /*===============

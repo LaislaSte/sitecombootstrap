@@ -1,4 +1,7 @@
 @import url(variables.css);
+@import url(/css/components/titltes.css);
+@import url(/css/components/buttons.css);
+@import url(/css/components/cards.css);
 
 *, body, html{
     margin: 0;

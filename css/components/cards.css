@@ -1,0 +1,41 @@
+@import url(/css/variables.css);
+
+.my-card{
+    border: solid 2px var(--PRIMARY_900);
+    border-radius: 15px;
+    text-align: center;
+    font:var(--REGULAR);
+    color: var(--TEXT_LIGHT);
+    width: auto;
+    height: 400px;
+}
+.top-card{
+    background-color: var(--PRIMARY_900);
+    color: var(--TEXT_LIGHT);
+    padding-top: 1.3rem;
+    text-justify: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    border-radius: 12px 12px 0 0;
+
+}
+
+@media (max-width: 570px) {
+    .myCard{
+        border: var(--PRIMARY_900);
+        border-radius: 15px;
+        text-align: center;
+        height: 500px;
+        width: 250px;
+    }
+}
+@media (max-width: 435px) {
+    .myCard{
+        border: var(--PRIMARY_900);
+        border-radius: 15px;
+        text-align: center;
+        height: 500px;
+        width: 100px;
+    }
+}

@@ -4,19 +4,23 @@
     font:var(--MEDIUM);
 }
 
-.btn-face{
+.btn-face, .btn-google:hover{
     height: 80px;
     width: 70%;
     top: 218px;
     border-radius: 15px;
-    background-color: var(--SECONDARY_900);
+    font: var(--MEDIUM);
     color: var(--TEXT_LIGHT);
+    transition: 3ms;
+}
+
+.btn-face{
+    background-color: var(--SECONDARY_900);
 }
 .btn-google{
-    height: 80px;
-    width: 70%;
-    top: 218px;
-    border-radius: 15px;
     background-color: var(--BARCKGROUND_LIGHT);
-    color: var(--TEXT);
+}
+
+.btn-face, .btn-google:hover{
+    background-color: var(--BARCKGROUND_DARK_DARKER);
 }

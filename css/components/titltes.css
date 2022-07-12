@@ -6,6 +6,8 @@
     z-index: 1;
 
 }
+
+/*Títulos*/
 .title-one{
     font: var(--BOLD);
     color: var(--SECONDARY_800);
@@ -13,7 +15,54 @@
 .title-two{
     font: var(--MEDIUM);
     text-decoration: none;
+    color: var(--TEXT_LIGHT);
 }
-.title-three{
+.title-alert{
+    font: var(--REGULAR_WARNING);
+    color: var(--ALERT);
+}
+
+.title-one-dark{
+    font: var(--BOLD);
+    color: var(--TEXT);
+}
+.title-two-dark{
+    font: var(--MEDIUM);
+    text-decoration: none;
+    color: var(--TEXT);
+}
+
+/*Parágrafos*/
+.p-light{
+    font: var(--LIGHT);
+    color: var(--TEXT_LIGHT);
+}
+.p-light-italic{
+    font: var(--LIGHT_ITALIC);
+    color: var(--TEXT_LIGHT);
+}
+.p-regular{
     font: var(--REGULAR);
+    color: var(--TEXT_LIGHT);
+}
+.p-medium{
+    font: var(--MEDIUM);
+    color: var(--TEXT_LIGHT);
+}
+
+.p-light-dark{
+    font: var(--LIGHT);
+    color: var(--TEXT);
+}
+.p-light-italic-dark{
+    font: var(--LIGHT_ITALIC);
+    color: var(--TEXT);
+}
+.p-regular-dark{
+    font: var(--REGULAR);
+    color: var(--TEXT);
+}
+.p-medium-dark{
+    font: var(--MEDIUM);
+    color: var(--TEXT);
 }

@@ -9,8 +9,8 @@
 
 .my-card{
     width: 15rem;
-    height: auto;
-    padding-bottom: .7rem;
+    height: 20rem;
+    padding-bottom: 1rem;
 }
 .my-card-log{
     width: auto;
@@ -29,7 +29,7 @@
 }
 .top-card-img{
     width: 100%;
-    height: 20%;
+    height: 40%;
     border-radius: 12px 12px 0 0;
 }
 .cat-card{

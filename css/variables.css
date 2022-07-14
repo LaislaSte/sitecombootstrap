@@ -45,6 +45,7 @@
 
 .nav-container {
     background-color: var(--BACKGROUND_DARK);
+    width: 100%;
 }
 
 .navbar-brand {
@@ -66,6 +67,15 @@
     z-index: -1;
 
     background: url(../media/imagens/3d8a724f-7dc2-42c9-8ca3-da12eab3ee71.jpg);
+}
+
+/*===============
+    LOGIN AREA
+=================*/
+@media (max-width:575px) {
+    .col-ou{
+        display: none;
+    }
 }
 
 /*===============
@@ -102,7 +112,7 @@
         top: -100px;
     }
 }
-    @media (min-width: 470px) and (max-width: 525px) { 
+@media (min-width: 470px) and (max-width: 525px) { 
     .foto-perfil{
         position: relative;
         width: 250px;

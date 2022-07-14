@@ -1,0 +1,14 @@
+@import url(../variables.css);
+
+.my-input{
+    width: 75%;
+    height: 2rem;
+    font: var(--LIGHT_ITALIC);
+    color: var(--PRIMARY_700);
+    margin: 0 2rem;
+    padding: 1rem;
+    background-color: var(--BACKGROUND-DARK-DARKER);
+
+    border-radius: 10px;
+    border: solid .2rem var(--PRIMARY_800);
+}

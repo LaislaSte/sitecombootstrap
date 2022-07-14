@@ -29,7 +29,7 @@
     --LIGHT_ITALIC: italic 300 1rem 'Nunito', san-serif;
     --REGULAR: normal 400 1rem 'Nunito', san-serif;
     --REGULAR_WARNING: normal uppercase 400 1rem 'Nunito', san-serif;
-    --MEDIUM: normal 500 1.5rem 'Nunito', san-serif;
+    --MEDIUM: normal 500 1rem 'Nunito', san-serif;
     --BOLD: normal 700 2rem 'Nunito', san-serif;
 
     /*others*/
@@ -68,11 +68,18 @@
     background: url(../media/imagens/3d8a724f-7dc2-42c9-8ca3-da12eab3ee71.jpg);
 }
 
+/*===============
+    PROFILE AREA
+=================*/
+
 .foto-perfil {
     position: relative;
     width: 250px;
     left: 30px;
     top: -100px;
+}
+.foto-perfil img {
+    border-radius: 200px;
 }
 
 @media (max-width:500px) {
@@ -81,6 +88,57 @@
         width: 250px;
         left: 50px;
         top: -100px;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 620px) { 
+    .bios{
+        margin: 0 5rem 0 5rem;
+    }
+    .foto-perfil{
+        position: relative;
+        width: 250px;
+        left: 27%;
+        top: -100px;
+    }
+}
+    @media (min-width: 470px) and (max-width: 525px) { 
+    .foto-perfil{
+        position: relative;
+        width: 250px;
+        left: 22%;
+        top: -100px;
+    }
+
+}
+@media (min-width: 375px) and (max-width: 470px) { 
+    .foto-perfil{
+        position: relative;
+        width: 250px;
+        left: 15%;
+        top: -100px;
+    }
+}
+@media (min-width: 320px) and (max-width: 375px) { 
+    .foto-perfil{
+        position: relative;
+        width: 250px;
+        left: 13%;
+        top: -100px;
+    }
+}
+@media (max-width: 320px) { 
+    .foto-perfil{
+        position: relative;
+        width: 250px;
+        left: 8%;
+        top: -100px;
+    }
+    .navbar-toggler{
+        margin-left: 7.5rem;
+    }
+    .navbar .title-one{
+        margin-left: 1.7rem;
     }
 }
 

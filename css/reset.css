@@ -2,6 +2,7 @@
 @import url(/css/components/titltes.css);
 @import url(/css/components/buttons.css);
 @import url(/css/components/cards.css);
+@import url(/css/components/input.css);
 
 *, body, html{
     margin: 0;

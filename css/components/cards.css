@@ -1,10 +1,15 @@
 @import url(/css/variables.css);
 
-.my-card, .my-card-log {
+.my-card, .my-card-log, .container-log {
     border: solid 2px var(--PRIMARY_900); /*igual*/
     border-radius: 15px; /*igual*/
     font:var(--REGULAR); /*igual*/
     color: var(--TEXT_LIGHT); /*igual*/
+}
+
+.container-log{
+    width: auto;
+    height: auto;
 }
 
 .my-card{

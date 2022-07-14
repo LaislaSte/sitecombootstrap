@@ -26,37 +26,39 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-expand-lg nav-container">
-                    <a href="index.html" class="title-one text-decoration-none">MemorizeStudio</a>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a href="index.html" class="title-one">MemorizeStudio</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
+                            <!--
+                                <a href="revisao.html" class="title-two">Página Inicial</a>
+                        <a href="exploracao.html" class="title-two">Explorar</a>
+                        <a href="criacao.html" class="title-two">Criar</a>
+                        <a href="notificacoes.html" class="title-two">Notificações</a>
+                        <a href="perfil.html" class="title-two">Perfil</a>
+                        <a href="configuracoes.html" class="title-two">Configurações</a>
+                            -->
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link p-regular" href="revisao.html">Página Inicial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-regular" href="exploracao.html">Explorar</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Sobre</a>
+                                <a class="nav-link p-regular" href="criacao.html">Criar</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="perfil.html">Meu Perfil</a>
-                            </li>
+                                <a class="nav-link p-regular" href="notificacoes.html">Notificações</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Criação</a>
+                                <a class="nav-link p-regular" href="configuracoes.html">Configurações</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Explorar
-                                </a>
-                                <div class="dropdown-menu nav-container" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link p-regular" href="sobre.html">Sobre</a>
                             </li>
                         </ul>
                     </div>
@@ -64,150 +66,72 @@
             </div>
         </div>
 
-        <div class="float">
+        <div class="row p-regular">
+            <div class="col">
 
-        </div>
+                <div class="float po">
+                </div>
 
-        <div class="row">
-            <div class="col col-lg-4 col-md-12 col-sm-12 ">
-                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="foto-perfil text-center">
+                            <figure class="">
+                                <img src="media/imagens/˚₊· ͟͟͞͞➳❥ADORA彡 ❍.jpg" alt="foto-perfil" width="100%">
+                            </figure>
+                            <h2 class="title-two">Nome de Usuário</h2>
+                        </div>
+                    </div>
 
-                    <div class="foto-perfil text-center">
-                        <figure>
-                            <img src="media/imagens/˚₊· ͟͟͞͞➳❥ADORA彡 ❍.jpg" alt="foto-perfil" width="100%">
-                        </figure>
-                        <h1 class="title-one d-inline-flex">
-                            <p class="stars">👑</p>
-                            <p class="stars">👑</p>
-                            <p class="stars">👑</p>
-                            <p class="stars">👑</p>
-                            <p class="stars">👑</p>
-                        </h1>
-                        <i class="fi fi-bs-pencil"></i>
+                    <div class="col col-lg-8 bios">
+                        <p class="user-description title-three"> Olá me chamo fulano da silva silveira</p>
+                        <div class="d-flex justify-content-start gap-3 p-light-italic">
+                            <p>Aluno</p>
+                            <p>Ano</p>
+                            <p>Estudanto para</p>
+                            <p>Nível 1</p>
+                        </div>
+                        <div class="d-flex justify-content-start gap-3 p-medium">
+                            <p>Seguindo</p>
+                            <p>Seguidores</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col col-lg-4 col-md-12 col-sm-12 p-regular pt-lg-3">
-                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
-                    <h2 class="title-two">Nome de Usuário</h2>
-                    <ul class="list-group list-unstyled">
-                        <li class="list-item">Aluno</li>
-                        <li class="list-item">Ano XX</li>
-                        <li class="list-item">Estudanto para XX</li>
-                        <li class="list-item">Nível iniciane</li>
+                <div class="container-fluid px-0 mt-sm-5">
+                    <h1 class="title-one">Postagem Realizadas</h1>
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img class="mr-3" src="..." alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <img class="mr-3" src="..." alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </li>
+                        <li class="media">
+                            <img class="mr-3" src="..." alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="col col-lg-4 col-md-12 col-sm-12 p-regular mt-lg-3">
-                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-
-                    <h1 class="nav-link dropdown-toggle title-two text-light" href="#" id="dropdownCat"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</h1>
-                    <div class="my-card dropdown-menu-dark" aria-labelledby="dropdownCat">
-                        <a class="dropdown-item" href="#">História</a>
-                        <a class="dropdown-item" href="#">Geográfia</a>
-                        <a class="dropdown-item" href="#">Português</a>
-                        <a class="dropdown-item" href="#">Matemática</a>
-                        <a class="dropdown-item" href="#">Filosofia</a>
-                    </div>
-                </div>
-
-            </div>
         </div>
-
-        <div class="row">
-            <h1 class="title-one">Post Realizados</h1>
-            <div class="col col-lg-4 col-md-6 col-sm-12">
-                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                    <div class="my-card">
-                        <div class="top-card">
-                            <h2 class="title-two">Título</h2>
-                        </div>
-                        <p class="m-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, temporibus pariatur. Cupiditate nemo dolore</p>
-                        <div>
-                            <!--Icones de cerebros para memorizar-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-lg-4 col-md-6 col-sm-12">
-                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                    <div class="my-card">
-                        <div class="top-card">
-                            <h2 class="title-two">Título</h2>
-                        </div>
-                        <p class="m-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, temporibus pariatur. Cupiditate nemo dolore</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-lg-4 col-md-6 col-sm-12">
-                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                    <div class="my-card">
-                        <div class="top-card">
-                            <h2 class="title-two">Título</h2>
-                        </div>
-                        <p class="m-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, temporibus pariatur. Cupiditate nemo dolore</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-                <!--
-        <div class="row mt-2">
-            <div class="col col-lg-9">
-                <div class="container">
-
-                    <div class="row text-center">
-                        <div class="col p-4">
-
-                            <div class="mb-3 pricing-header mx-auto text-center">
-                                <figure class="figure">
-                                    <img width="60%" src="media/imagens/Bow.jpg" alt="foto-perfil">
-                                </figure>
-                            </div>
-
-                            <div class=" mb-3 pricing-header mx-auto text-center">
-                                <div class="descricao">
-                                    <h1 class="title-one">Nome de Usuário</h1>
-                                    <p class="title-three text-light">Faça uma pequena descrição breve. Por exemplo:
-                                        Olá, me chamo Fulano, estou estudando para o Enem e gosto de pizza</p>
-                                </div>
-                            </div>
-
-                            <div class=" mb-3 pricing-header mx-auto text-center">
-                                <h2 class="title-two text-light">Iniciante</h2>
-                                <h1 class="title-one d-inline-flex">
-                                    <p class="stars">👑</p>
-                                    <p class="stars">👑</p>
-                                    <p class="stars">👑</p>
-                                </h1>
-                            </div>
-
-                            <div class=" mb-3 pricing-header mx-auto text-center text-light d-inline">
-                                <h2 class="title-two m-2">História</h2>
-                                <h2 class="title-two m-2">Geográfia</h2>
-                                <h2 class="title-two m-2">Matemática</h2>
-                                <h2 class="title-two m-2">Português</h2>
-                                <h2 class="title-two m-2">Inglês<s></s></h2>
-                            </div>
-
-                            <div class=" mb-3 pricing-header mx-auto text-center">
-                                <button class="ms-lg-4 btn btn-outline-success my-2 my-sm-0" type="submit">Editar
-                                    Perfil</button>
-                                <button class="ms-lg-4 btn btn-outline-success my-2 my-sm-0 w-25" type="submit">Editar
-                                    Categorias</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>-->
-
-            </div>
+    </div>
 </body>
 
 </html>

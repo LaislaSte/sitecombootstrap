@@ -19,7 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <title>Tcc Project</title>
+    <title>Meu Perfil</title>
 </head>
 
 <body>
@@ -70,6 +70,8 @@
             <div class="col">
 
                 <div class="float po">
+                    <!--foto exemplo colocada pelo css-->
+                    <img src="" alt="" srcset="">
                 </div>
 
                 <div class="row">
@@ -79,10 +81,62 @@
                                 <img src="media/imagens/˚₊· ͟͟͞͞➳❥ADORA彡 ❍.jpg" alt="foto-perfil" width="100%">
                             </figure>
                             <h2 class="title-two">Nome de Usuário</h2>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-success h-25" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                                Editar Perfil
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade p-regular" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="title-two" id="exampleModalLongTitle">Edição de perfil</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                X
+                                            </button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <form action="" method="post" class="d-flex flex-column gap-3">
+                                                <div class="just-one">
+                                                <p>Editar foto de perfil</p>
+                                                <input type="file" width="100%">
+                                                </div>
+                                                <div class="just-one">
+                                                <p>Editar foto de fundo</p>
+                                                <input type="file" width="100%">
+                                                </div>
+                                                <div class="just-one">
+                                                <p>Editar Nome de Usuário</p>
+                                                <input type="text" width="100%" class="my-input-username text-center">
+                                                </div>
+                                                <div class="just-one">
+                                                <p>Editar bibliográfia</p>
+                                                <textarea name="text-area-profile" id="text-area-profile" cols="30" rows="10" class="my-text-area"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-secondary"
+                                                data-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-outline-success h-25">Salvar</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class="col col-lg-8 bios">
+                    <div class="col col-lg-8 bios mt-4">
                         <p class="user-description title-three"> Olá me chamo fulano da silva silveira</p>
                         <div class="d-flex justify-content-start gap-3 p-light-italic">
                             <p>Aluno</p>
@@ -97,11 +151,11 @@
                     </div>
                 </div>
 
-                <div class="container-fluid px-0 mt-sm-5">
+                <div class="container-fluid px-0 mt-sm-5 mt-lg-0 mt-md-3">
                     <h1 class="title-one">Postagem Realizadas</h1>
                     <ul class="list-unstyled">
                         <li class="media">
-                            <img class="mr-3" src="..." alt="Generic placeholder image">
+                            <img class="mr-3" src="..." alt="post's-user-image">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">List-based media object</h5>
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -110,7 +164,7 @@
                             </div>
                         </li>
                         <li class="media my-4">
-                            <img class="mr-3" src="..." alt="Generic placeholder image">
+                            <img class="mr-3" src="..." alt="post's-user-image">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">List-based media object</h5>
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -119,7 +173,7 @@
                             </div>
                         </li>
                         <li class="media">
-                            <img class="mr-3" src="..." alt="Generic placeholder image">
+                            <img class="mr-3" src="..." alt="post's-user-image">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">List-based media object</h5>
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -129,6 +183,7 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </div>

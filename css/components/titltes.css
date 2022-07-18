@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 .title-two{
-    font: var(--MEDIUM);
+    font: var(--BOLD);
     text-decoration: none;
     color: var(--TEXT_LIGHT);
 }
@@ -28,7 +28,7 @@
     color: var(--TEXT);
 }
 .title-two-dark{
-    font: var(--MEDIUM);
+    font: var(--BOLD);
     text-decoration: none;
     color: var(--TEXT);
 }

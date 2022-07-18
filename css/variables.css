@@ -30,7 +30,7 @@
     --REGULAR: normal 400 1rem 'Nunito', san-serif;
     --REGULAR_WARNING: normal uppercase 400 1rem 'Nunito', san-serif;
     --MEDIUM: normal 500 1rem 'Nunito', san-serif;
-    --BOLD: normal 700 2rem 'Nunito', san-serif;
+    --BOLD: normal 700 1.7rem 'Nunito', san-serif;
 
     /*others*/
     --ALERT: #D9042B;
@@ -81,6 +81,18 @@
 /*===============
     PROFILE AREA
 =================*/
+
+/*modal edit profile*/
+.modal .modal-dialog .modal-content{
+    background-color: var(--BACKGROUND_DARK) !important;
+}
+.close{
+    background-color: var(--BACKGROUND_DARK) !important;
+    border:none;
+    font: var(--MEDIUM);
+    color: var(--TEXT_LIGHT);
+}
+
 
 .foto-perfil {
     position: relative;
@@ -186,137 +198,5 @@
 
 .container-fluid .row .col .menu-area .navbar ul li {
     margin-left: 15%;
-
-}
-
-footer {
-    color: #fff;
-}
-
-/*===============
-    EDICAO PERFIL
-=================*/
-.edtphoto {
-    position: absolute;
-    top: 80px;
-}
-
-/*===============
-    MEDIAS QUERIES
-=================*/
-
-@media (max-width: 570px) {
-    .container-fluid .row .col .off {
-        display: none;
-    }
-
-    .one,
-    .two,
-    .three {
-        height: 3px;
-        width: 100%;
-        background-color: #049DBF;
-        margin: 6px auto;
-        transition-duration: 0.5s;
-    }
-
-    .menu-toggle {
-        width: 40px;
-        height: 30px;
-        margin-right: 20px;
-    }
-
-    /*fullscren*/
-    .menu-area.on {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #04C4D9;
-        z-index: 10;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .menu-area.on .menu-toggle {
-        position: absolute;
-        right: 0;
-        top: 15px;
-    }
-
-    .menu-area.on .menu-toggle .one {
-        transform: rotate(45deg) translate(7px, 7px);
-    }
-
-    .menu-area.on .menu-toggle .two {
-        transform: rotate(-45deg) translate(-2px, -1px);
-    }
-
-    .menu-area.on .menu-toggle .three {
-        opacity: 0;
-    }
-
-    .container-fluid .row .col .navbar.off ul {
-        text-align: center;
-        display: block;
-    }
-
-    .container-fluid .row .col .navbar ul a {
-        transition-duration: .5s;
-        font-size: 1rem;
-        line-height: 4rem;
-        display: block;
-    }
-
-    .menu-area {
-        display: flex;
-    }
-
-    /*
-    .menu-area{
-        background-color: #1D3240;
-    }
-    .menu-area .menu-toggle{
-        height: 40px;
-        width: 40px;
-        position: relative;
-        top: 10px;
-        left: 30px;
-        transition-duration: .3s;
-    }
-    .menu-area .menu-toggle .one{
-        height: 3px;
-        background-color: #049DBF;
-        margin: 6px auto;
-    }
-    .menu-area .menu-toggle .two{
-        height: 3px;
-        margin: 6px auto;
-        background-color: #049DBF;
-    }
-    .menu-area .menu-toggle .three{
-        height: 3px;
-        background-color: #049DBF;
-    }
-
-    .menu-area .on{
-        height: 100vh;
-        width: 40px;
-        position: relative;
-        top: 10px;
-        left: 30px;
-    }
-    .menu-area .on .one{ 
-        transform: rotateX(45ang) translate();
-    }
-    .menu-area .on .two{
-        transform: rotateX(-45ang) translate();
-    }
-    .menu-area .on .three{
-        opacity: 0;
-    }*/
 
 }

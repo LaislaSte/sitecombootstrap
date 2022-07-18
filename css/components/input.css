@@ -1,6 +1,6 @@
 @import url(../variables.css);
 
-.my-input{
+.my-input, .my-text-area, .my-input-username{
     width: 75%;
     height: 2rem;
     font: var(--LIGHT_ITALIC);
@@ -10,5 +10,15 @@
     background-color: var(--BACKGROUND-DARK-DARKER);
 
     border-radius: 10px;
-    border: solid .2rem var(--PRIMARY_800);
+    border: solid 2px var(--PRIMARY_800);
+}
+
+.my-input-username{
+    font: var(--REGULAR);
+    color: var(--TEXT_LIGHT);
+}
+.my-text-area{
+    height: 5rem;
+    font: var(--REGULAR);
+    color: var(--TEXT_LIGHT);
 }
